@@ -16,6 +16,16 @@ Console.WriteLine("Multiples de 7 menors que 200:");
 List<int> multiples = Metodes.comptadorMultiples(100);
 Console.WriteLine(string.Join(", ", multiples));
 
+Console.WriteLine("Introdueix un número per calcular els seus múltiples menors que 100:");
+if (int.TryParse(Console.ReadLine(), out int numero))
+{
+    Console.WriteLine("Multiples de " + numero + " menors que 100: " + string.Join(", ", Metodes.comptadorMultiples(numero)));
+}
+else
+{
+    Console.WriteLine("Si us plau, introdueix un número vàlid.");
+}
+
 
 
 
