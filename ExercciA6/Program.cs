@@ -1,6 +1,6 @@
 using System;
 
-
+ArgumentNullException.ThrowIfNull(args);
 
 Console.WriteLine("Introdueix un valor enter:");
 if (int.TryParse(Console.ReadLine(), out int valor))
