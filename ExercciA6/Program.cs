@@ -25,6 +25,8 @@ if (int.TryParse(Console.ReadLine(), out int numero))
 else
 {
     Console.WriteLine("Si us plau, introdueix un número vàlid.");
+    Console.WriteLine("Modificació des de GitHub");
+
 }
 
 
