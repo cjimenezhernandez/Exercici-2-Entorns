@@ -1,7 +1,7 @@
 using System;
 
 
-Console.WriteLine("Modificació des de VS Code canviada");
+Console.WriteLine("Modificació des de VS Code original");
 
 Console.WriteLine("Introdueix un valor enter:");
 if (int.TryParse(Console.ReadLine(), out int valor))
